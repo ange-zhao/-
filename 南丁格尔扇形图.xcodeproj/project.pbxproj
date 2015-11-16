@@ -14,6 +14,8 @@
 		BBCB7B931A6D001C00C8EEB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCB7B921A6D001C00C8EEB0 /* Images.xcassets */; };
 		BBCB7B961A6D001C00C8EEB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBCB7B941A6D001C00C8EEB0 /* LaunchScreen.xib */; };
 		BBCB7BA21A6D001C00C8EEB0 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCB7BA11A6D001C00C8EEB0 /* _______Tests.m */; };
+		BBCB7BAD1A6D008800C8EEB0 /* DHWfanshape.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCB7BAC1A6D008800C8EEB0 /* DHWfanshape.m */; };
+		BBCB7BAF1A6D022600C8EEB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCB7BAE1A6D022600C8EEB0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		BBCB7B9B1A6D001C00C8EEB0 /* 南丁格尔扇形图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "南丁格尔扇形图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCB7BA01A6D001C00C8EEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCB7BA11A6D001C00C8EEB0 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		BBCB7BAB1A6D008800C8EEB0 /* DHWfanshape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHWfanshape.h; sourceTree = "<group>"; };
+		BBCB7BAC1A6D008800C8EEB0 /* DHWfanshape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHWfanshape.m; sourceTree = "<group>"; };
+		BBCB7BAE1A6D022600C8EEB0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCB7BAF1A6D022600C8EEB0 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		BBCB7B791A6D001C00C8EEB0 = {
 			isa = PBXGroup;
 			children = (
+				BBCB7BAE1A6D022600C8EEB0 /* QuartzCore.framework */,
 				BBCB7B841A6D001C00C8EEB0 /* 南丁格尔扇形图 */,
 				BBCB7B9E1A6D001C00C8EEB0 /* 南丁格尔扇形图Tests */,
 				BBCB7B831A6D001C00C8EEB0 /* Products */,
@@ -85,6 +92,8 @@
 				BBCB7B8A1A6D001C00C8EEB0 /* AppDelegate.m */,
 				BBCB7B8C1A6D001C00C8EEB0 /* ViewController.h */,
 				BBCB7B8D1A6D001C00C8EEB0 /* ViewController.m */,
+				BBCB7BAB1A6D008800C8EEB0 /* DHWfanshape.h */,
+				BBCB7BAC1A6D008800C8EEB0 /* DHWfanshape.m */,
 				BBCB7B8F1A6D001C00C8EEB0 /* Main.storyboard */,
 				BBCB7B921A6D001C00C8EEB0 /* Images.xcassets */,
 				BBCB7B941A6D001C00C8EEB0 /* LaunchScreen.xib */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBCB7B8E1A6D001C00C8EEB0 /* ViewController.m in Sources */,
+				BBCB7BAD1A6D008800C8EEB0 /* DHWfanshape.m in Sources */,
 				BBCB7B8B1A6D001C00C8EEB0 /* AppDelegate.m in Sources */,
 				BBCB7B881A6D001C00C8EEB0 /* main.m in Sources */,
 			);
@@ -344,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "南丁格尔扇形图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "南丁格尔扇形图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
